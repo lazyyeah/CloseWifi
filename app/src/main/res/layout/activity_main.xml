@@ -8,10 +8,35 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button"
+        android:text="WIFI"
+        android:id="@+id/wifibutton"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="119dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="blueteeth"
+        android:id="@+id/bluebutton"
+        android:layout_below="@+id/wifibutton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GRRS"
+        android:id="@+id/gprsbutton"
+        android:layout_below="@+id/bluebutton"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GPS"
+        android:id="@+id/gpsbutton"
+        android:layout_below="@+id/gprsbutton"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
